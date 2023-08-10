@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import 'bootstrap/dist/css/bootstrap.min.css'; // Agregar Bootstrap CSS
-import './styles/styles.css';
-import Semaphor from './js/components/Semaphor';
+import '../styles/bootstrap.min.css';
+import '../styles/index.css'; 
+import Semaphor from './component/semaphor';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <Semaphor />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+    <React.StrictMode>
+      <Semaphor />
+    </React.StrictMode>,
+    document.getElementById('root') 
+  );
+  
